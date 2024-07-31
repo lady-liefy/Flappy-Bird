@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://br770st3m6h72"]
+
+[ext_resource type="Script" path="res://scripts/pipe_spawner.gd" id="1_affy3"]
+
+[node name="PipeSpawner" type="Node"]
+script = ExtResource("1_affy3")
+
+[node name="SpawnTimer" type="Timer" parent="."]
+autostart = true
